@@ -1,0 +1,37 @@
+Title:
+    Number guessing game,
+
+About project:
+    The computer selects a random number,
+    and the player tries to guess it. After each guess, the computer provides feedback,
+    telling the player whether the guess was too high, too low, or correct.
+    The game continues until the player guesses the correct number.
+
+Topics:
+    Comparison Operators
+    Conditional statement
+    While loop
+
+Type:
+    Beginners
+
+library:
+    random
+
+Steps or algorithm to solve the problem
+
+    Step 1: Generate a random number between 1 and 10 and store it in the guess_number variable.
+    Important: Whenever the code runs, it will give you a random number.
+
+    Step 2: Create an infinite while loop by setting the condition to True.
+    The loop will continue until the condition becomes False or a break statement is encountered.
+
+    Step 3: Take the player's guess as input, convert it into an integer,
+    and store it in the user_guess_number variable.
+
+    Step 4: Check if the guess_number is equal to user_guess_number.
+    If the guess is correct, print Congratulations! You guessed the number!
+
+    Step 5: If user_guess_number is less than guess_number, print Your guess is too low!
+
+    Step 6: If user_guess_number is greater than guess_number, print Your guess is too high!
